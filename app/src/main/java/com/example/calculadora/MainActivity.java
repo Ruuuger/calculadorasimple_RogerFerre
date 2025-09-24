@@ -69,8 +69,8 @@ public class MainActivity extends AppCompatActivity {
         btnDividir.setOnClickListener(v -> afegirOReemplazarOperador("/"));
         btnClear.setOnClickListener(v -> clear());
         btnDelete.setOnClickListener(v -> delete());
-        btnParantAb.setOnClickListener(v -> afegirNum(")"));
-        btnParantCerr.setOnClickListener(v -> afegirNum("("));
+        btnParantAb.setOnClickListener(v -> afegirNum("("));
+        btnParantCerr.setOnClickListener(v -> afegirNum(")"));
 
         actualitzar();
     }
